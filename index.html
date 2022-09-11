@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>결혼 청첩장</title>
+    <style>
+        * {
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            
+        }
+        body, h1, h2, h3, p, a {
+            font-size: 16px;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        
+        .wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            margin: auto;
+        }
+        .wrap h1 {
+
+            padding: 16px 16px 16px 16px;
+            background-color: pink;
+            color: white;
+            width: 300px;
+        }
+        .wrap .pic {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: pink;
+            text-align: center;
+            letter-spacing: 5px;
+            line-height:30px;
+        }
+        .wrap img {
+            border: 5px solid pink;
+            border-radius: 8px;
+        }
+        .wrap .name {
+            color: pink;
+
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .wrap hr {
+            border-top: none;
+            border-bottom: 1px solid pink;    
+        }
+        .wrap .main {
+            padding: 30px;
+            background-color: pink;
+            color: white;
+            text-align: center;
+            width: 310px;
+            height: 320px;
+            
+        }
+        .wrap .main p {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding-left: 5px;
+            text-align: left;
+        }
+
+        .wrap .bottom {
+            margin-top: 20px;
+            color: pink;
+            letter-spacing: normal;
+            word-spacing: normal;
+            line-height: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: center;
+            appearance: auto;
+            -webkit-rtl-ordering: logical;
+            cursor: text;
+            background-color: field;
+            width: 310px;
+            height: 320px;
+        }
+        .bottom input {
+            width: 250px;
+            height: 20px;
+        }
+        .bottom textarea {
+            width: 250px;
+            height: 100px;
+        }
+        .wrap .bottom ul {
+            list-style: none;
+            padding-left: 0px;
+            
+        }
+        .wrap .bottom li {
+            margin-top: 10px;
+            
+        }
+        .wrap button {
+            width: 150px;
+            height: 40px;
+            background-color: pink;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>우리의 첫 시작을 축하해주세요</h1>
+        <div class="pic">
+            <h3>Save The Date</h3>
+            <img src="images/image.png" width="250" height="170">
+            <p>12.31.SUNDAY.PM.12:30</p>
+        </div>
+        <div class="name">
+            <hr>
+            나랑 & 너랑
+            <hr>
+        </div>
+        <div class="main">
+            <h2 style="font-size: 20px;">INVITATION</h2>
+
+            <p>서로 다른 두 사람이 만나<br>
+            사랑으로 하나 되는 자리에<br>
+            소중한 여러분들을 초대합니다.<br>
+            기쁠 때나, 슬플 때나<br>
+            서로를 사랑으로 품으며<br>
+            행복의 계단을 쌓아가겠습니다.<br>
+            저희의 첫 시작을 함께 해주신다면<br>
+            감사한 마음 깊이 간직하며 잘 살겠습니다.</p>
+
+            
+            <h3>2023. 12. 31. SUN. PM 12:30<br>
+            스파르타웨딩 르탄홀</h3>
+        </div>
+        <div class="bottom">
+            <h3>축하메세지를 남겨주세요</h3>
+            <ul>
+                <li>
+                    <input type="text" placeholder="이름">
+                </li>
+                <li>    
+                    <textarea placeholder="메세지를 남겨주세요"></textarea>
+                </li>
+            </ul>
+            <button>메세지남기기</button>
+        </div>
+    </div>
+</body>
+</html>
